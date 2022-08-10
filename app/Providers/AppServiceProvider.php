@@ -16,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
     {
         {
             // $this->registerPolicies();
-            
+
             Passport::routes();
         }
     }
